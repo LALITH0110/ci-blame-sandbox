@@ -7,3 +7,7 @@ unit tests on every push to `dev`.
 - Green: merge a PR that fixes it.
 
 Merge PRs with squash so each commit on `dev` is one PR.
+
+## Running tests
+
+`python -m unittest discover -s tests -v`
